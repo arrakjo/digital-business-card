@@ -1,0 +1,18 @@
+.footer {
+  width: 350px;
+  height: 70px;
+  background: #2d6a4f;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link {
+  margin-inline: 5px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  opacity: 0.8;
+}
