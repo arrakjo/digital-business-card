@@ -1,8 +1,14 @@
+.card-details {
+  color: rgb(194, 194, 194);
+  font-size: 0.9rem;
+}
+
 .profile {
-  height: 350px;
+  height: 260px;
   width: 350px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  box-shadow: 0 20px 30px -30px #081c15;
 }
 
 h1 {

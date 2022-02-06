@@ -6,7 +6,7 @@ function emailButton() {
 }
 
 function linkedinButton() {
-  window.location.href = "https://www.linkedin.com/in/jooseparrak/";
+  window.open("https://www.linkedin.com/in/jooseparrak/", "_blank");
 }
 
 function Info() {
@@ -14,7 +14,7 @@ function Info() {
     <div className="card-info">
       <div className="card-img">
         <img
-          src={require("../img/profile.jpg")}
+          src={require("../img/profile-alt.png")}
           alt="Profile"
           className="profile"
         />
@@ -27,7 +27,15 @@ function Info() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          jooseparrak.eu
+          Portfolio
+        </a>{" "}
+        |{" "}
+        <a
+          href="https://github.com/arrakjo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
         </a>
         <div className="cta">
           <button className="btn" onClick={emailButton}>
